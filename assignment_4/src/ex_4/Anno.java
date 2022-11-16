@@ -24,6 +24,8 @@ public class Anno {
 	public  static void main(String args[])throws Exception{  
 	  
 	Hello h=new Hello();  
+	// getclass() method  returns runtime  class of the object "this".
+	// getmethod() method returns the value of variable name.
 	Method m=h.getClass().getMethod("sayHello");  
 	  
 	JsonIgnore manno=m.getAnnotation(JsonIgnore.class);  
